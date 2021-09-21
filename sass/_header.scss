@@ -1,0 +1,33 @@
+.layout__header {
+  background-color: $gray;
+  width: 100%;
+
+  .container {
+    .header__img-logo {
+      width: 220px;
+      margin: 10px 0px;
+    }
+  }
+
+  .nav-links-container {
+    background-color: $yellow;
+
+    .header__nav-links {
+      display: flex;
+      flex-direction: row;
+      margin: auto;
+      padding: 10px 0px;
+      width: 90%;
+
+      .nav-links__item {
+        color: $white;
+        font-size: 16px;
+        font-family: $font-family;
+        font-weight: bold;
+        padding: 10px;
+        text-transform: uppercase;
+        text-decoration: none;
+      }
+    }
+  }
+}

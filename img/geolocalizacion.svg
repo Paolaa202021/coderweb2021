@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="170" height="170" viewBox="0 0 170 170">
+  <g id="geolocalizacion" transform="translate(-204.565 -1696.194)">
+    <g id="Elipse_6" data-name="Elipse 6" transform="translate(204.565 1696.194)" fill="#fff" stroke="#ffd500" stroke-width="3">
+      <circle cx="85" cy="85" r="85" stroke="none"/>
+      <circle cx="85" cy="85" r="83.5" fill="none"/>
+    </g>
+    <g id="Grupo_186" data-name="Grupo 186" transform="translate(260 1751.284)">
+      <path id="Trazado_12" data-name="Trazado 12" d="M58.333,0H57.5L40,7.083,20,0,1.25,6.25C.833,6.667,0,7.083,0,7.917V58.333A1.792,1.792,0,0,0,1.667,60H2.5L20,52.917,40,60l18.75-6.25c.833-.417,1.25-.833,1.25-1.667V1.667A1.792,1.792,0,0,0,58.333,0ZM40,53.333,20,46.25V6.667L40,13.75Zm0,0" fill="#ffd500"/>
+    </g>
+  </g>
+</svg>

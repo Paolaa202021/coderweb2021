@@ -1,0 +1,31 @@
+.footer {
+  background: linear-gradient($woodsmoke, $corduroy);
+  height: 100%;
+
+  .footer__footer-container {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding: 10px 0px;
+    width: 90%;
+
+    .footer__img-logo {
+      width: 220px;
+    }
+
+    .footer__footer-menu {
+      display: flex;
+      flex-direction: row;
+
+      .footer-menu__footer-menu-item {
+        color: $white;
+        font-size: 14px;
+        font-family: $font-family;
+        padding: 10px;
+        text-transform: uppercase;
+        text-decoration: none;
+      }
+    }
+  }
+}

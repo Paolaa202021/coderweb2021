@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="170" height="170" viewBox="0 0 170 170">
+  <g id="reservas" transform="translate(-1006.565 -1696.194)">
+    <g id="Elipse_6" data-name="Elipse 6" transform="translate(1006.565 1696.194)" fill="#fff" stroke="#ffd500" stroke-width="3">
+      <circle cx="85" cy="85" r="85" stroke="none"/>
+      <circle cx="85" cy="85" r="83.5" fill="none"/>
+    </g>
+    <path id="Trazado_186" data-name="Trazado 186" d="M45.082,33.523l-3.53-3.53L25.29,46.254,18.23,39.193l-3.53,3.53L25.29,53.314,45.082,33.523ZM53.314,6.67H49.987V0h-6.67V6.67H16.668V0H10V6.67H6.67A6.64,6.64,0,0,0,.031,13.34L0,59.984a6.667,6.667,0,0,0,6.67,6.67H53.33A6.667,6.667,0,0,0,60,59.984V13.325A6.687,6.687,0,0,0,53.314,6.67Zm0,53.314H6.67V23.322H53.33V59.984Z" transform="translate(1061 1747.284)" fill="#ffd500"/>
+  </g>
+</svg>

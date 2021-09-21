@@ -1,0 +1,13 @@
+@import 'fuentes';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 1096px;
+  margin: auto !important;
+  font-family: $font-family;
+}

@@ -1,0 +1,427 @@
+/*ESTILOS GLOBALES*/
+/* header {
+  background-color: gray;
+  width: 100%;
+}
+.header-container {
+  align-items: center;
+  display: flex;
+  margin: auto;
+  padding: 10px 0px;
+  width: 90%;
+}
+.header-img-logo {
+  width: 220px;
+}
+
+.nav-links-container {
+  background-color: #ffd500;
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  padding: 10px 0px;
+  width: 90%;
+}
+
+.nav-links-item {
+  color: white;
+  font-size: 16px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  padding: 10px;
+  text-transform: uppercase;
+
+  text-decoration: none;
+} */
+
+.pedido {
+  background-image: url('./img/home.svg');
+  background-size: cover;
+  padding: 30px 0px;
+}
+
+.container-pedido {
+  display: flex;
+  margin: auto;
+  width: 90%;
+}
+
+.card-pedido {
+  background-color: white;
+  padding: 10px 20px;
+  width: 50%;
+}
+
+.pedido-title {
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  color: black;
+}
+
+.label-pedido {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-transform: capitalize;
+}
+
+.input-pedido {
+  border: none;
+  border-bottom: 1px solid gray;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.container-fecha-hora {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn-pedido {
+  background-color: #ffd500;
+  border: none;
+  box-shadow: 2px 2px 4px 0px rgba(50, 50, 50, 0.75);
+  color: #fafafa;
+  font-size: 14px;
+  font-family: 'Roboto';
+  font-weight: bold;
+
+  margin-top: 30px;
+  margin-bottom: 20px;
+  padding: 10px 40px;
+  text-transform: uppercase;
+  transition: all 2s;
+}
+.btn-pedido:hover {
+  background-color: #11f336;
+}
+
+.frase-pedido {
+  color: #fafafa;
+  font-size: 40px;
+  font-family: 'Roboto';
+  font-weight: 300;
+  font-style: italic;
+  padding-left: 40px;
+  padding-top: 20px;
+  text-transform: uppercase;
+  width: 50%;
+}
+
+.title-facil-seguro {
+  margin-top: 20px;
+}
+.contacto {
+  background-image: url(./img/mapa-ushuaia-2.svg);
+  background-size: cover;
+  padding: 30px 0px;
+}
+.container-contacto {
+  display: flex;
+  margin: auto;
+  width: 90%;
+  display: flex;
+  justify-content: flex-end;
+  flex: 1;
+}
+
+.card-contacto {
+  margin-right: 10px;
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+  background-color: #fff;
+  padding: 10px 20px;
+  width: 300px;
+}
+.input-contacto {
+  border: none;
+  border-bottom: 1px solid #808080;
+  margin-bottom: 10px;
+}
+.contacto-title {
+  margin: 20px 0px;
+  text-transform: uppercase;
+}
+.textarea-contacto {
+  margin: 10px 0px;
+  border: 1px solid #808080;
+}
+.btn-enviar {
+  background-color: #ffd500;
+  border: none;
+  box-shadow: 2px 2px 4px 0px rgba(50, 50, 50, 0.75);
+  color: #fafafa;
+  font-size: 14px;
+  font-family: 'Roboto';
+  font-weight: bold;
+
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding: 10px 40px;
+  text-transform: uppercase;
+  transition: all 2s;
+}
+.noticias,
+.quienesSomos .servicios {
+  background-color: white;
+  margin-bottom: 50px;
+}
+.contenedor-quienes-somos {
+  width: 90%;
+  margin: auto;
+  margin-bottom: 30px;
+}
+.noticia {
+  margin: auto;
+  width: 90%;
+}
+
+.titulo-noticias,
+.titulo-nosotros {
+  text-transform: uppercase;
+  font-size: 25px;
+  font-family: 'Roboto';
+  padding: 40px 0px;
+  text-align: center;
+}
+
+.galeria-noticias {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.card-noticia {
+  border-radius: 5px;
+  width: 30%;
+  margin: 0px 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-noticia img {
+  width: 100%;
+}
+
+.card-body {
+  padding: 20px;
+  border: 1px solid #f0f0f0;
+  box-shadow: 0px 0px 7px -3px rgb(102 102 102 / 82%);
+}
+
+.card-body h3 {
+  font-family: 'Roboto';
+  font-size: 16px;
+}
+
+.card-body p {
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 400;
+  margin-top: 15px;
+}
+
+/*LAYOUT*/
+.layout {
+  display: grid;
+  grid-template-areas:
+    'header'
+    'pedido'
+    'footer';
+  grid-template-rows: auto;
+  grid-auto-columns: 1fr;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  grid-area: header;
+}
+
+.pedido {
+  grid-area: pedido;
+}
+
+footer {
+  grid-area: footer;
+}
+
+.pedido-destino {
+  animation-duration: 2s;
+  animation-name: aparecer;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+}
+
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.intro {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.img-somos {
+  width: 30%;
+}
+
+.img-thumbnail {
+  border: 3px solid #ffd500;
+}
+
+.container-texto-somos {
+  padding-left: 70px;
+}
+
+.container-texto-somos h3,
+.container-texto-somos p {
+  font-family: 'Roboto';
+  margin-bottom: 30px;
+}
+
+.services {
+  width: 100%;
+  background-color: #fafafa;
+}
+
+.container-services {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.title-service {
+  text-transform: uppercase;
+  margin: 40px 0px;
+}
+
+.container-items-service {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.card-service {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 33%;
+  margin-bottom: 80px;
+  padding: 0px 50px;
+}
+
+.card-service img {
+  width: 120px;
+  margin-bottom: 10px;
+}
+
+.card-service h3 {
+  margin: 10px 0px;
+  text-align: center;
+}
+
+.card-service p {
+  font-size: 12px;
+  text-align: center;
+}
+/* para dispositivos mayores a una tablet*/
+@media only screen and (min-width: 768px) {
+  .contenedor-boton-pedido {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .header-container {
+    justify-content: center;
+  }
+
+  .nav-links {
+    justify-content: center;
+  }
+
+  .container-pedido {
+    width: 100%;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .frase-pedido {
+    font-size: 30px;
+    padding-left: 0px;
+    padding-top: 10px;
+    text-align: center;
+    width: 90%;
+  }
+
+  .card-pedido {
+    margin-top: 20px;
+    padding: 10px 20px;
+    width: 90%;
+  }
+
+  .card-noticia {
+    width: 45%;
+    margin-bottom: 20px;
+  }
+
+  .intro {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .container-texto-somos {
+    padding-left: 0px;
+    margin-top: 20px;
+  }
+  .img-somos {
+    width: 60%;
+  }
+
+  .card-service {
+    width: 50%;
+    margin-bottom: 40px;
+  }
+  .footer-container {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .nav-links {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card-noticia {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .img-somos {
+    width: 100%;
+  }
+
+  .card-service {
+    width: 100%;
+  }
+
+  .footer-menu {
+    flex-direction: column;
+    align-items: center;
+  }
+}

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="170" height="170" viewBox="0 0 170 170">
+  <g id="seguridad" transform="translate(-605.565 -1696.194)">
+    <g id="Elipse_6" data-name="Elipse 6" transform="translate(605.565 1696.194)" fill="#fff" stroke="#ffd500" stroke-width="3">
+      <circle cx="85" cy="85" r="85" stroke="none"/>
+      <circle cx="85" cy="85" r="83.5" fill="none"/>
+    </g>
+    <path id="Trazado_163" data-name="Trazado 163" d="M30,0,0,13.328v20c0,18.516,12.781,35.781,30,40,17.219-4.219,30-21.484,30-40v-20ZM23.328,53.328,10,40l4.719-4.719,8.609,8.609L45.281,21.937,50,26.656Z" transform="translate(660 1744.147)" fill="#ffd500"/>
+  </g>
+</svg>
