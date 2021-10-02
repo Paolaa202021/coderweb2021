@@ -16,7 +16,12 @@ body {
   width: 100%;
 }
 
-.layout__header .container .header__img-logo {
+.layout__header .container__header {
+  margin: auto;
+  width: 90%;
+}
+
+.layout__header .container__header .header__img-logo {
   width: 220px;
   margin: 10px 0px;
 }
