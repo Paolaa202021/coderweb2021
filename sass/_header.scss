@@ -11,12 +11,14 @@
     }
   }
 
+  .navbar-custom {
+    padding: 0;
+  }
+
   .nav-links-container {
     background-color: $yellow;
 
     .header__nav-links {
-      display: flex;
-      flex-direction: row;
       margin: auto;
       padding: 10px 0px;
       width: 90%;
@@ -30,6 +32,18 @@
         text-transform: uppercase;
         text-decoration: none;
       }
+    }
+  }
+}
+
+@media only screen and (max-width: 580px) {
+  .layout__header {
+    .nav-links-container {
+      padding: 10px;
+    }
+
+    .header__nav-links {
+      text-align: center;
     }
   }
 }

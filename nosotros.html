@@ -44,20 +44,65 @@
           />
         </div>
 
-        <div class="nav-links-container">
-          <nav class="header__nav-links">
-            <a class="nav-links__item" href="index.html">Home</a>
-            <a class="nav-links__item" href="noticias.html">Noticias</a>
-            <a class="nav-links__item" href="servicios.html">Servicios</a>
-            <a class="nav-links__item" href="nosotros.html">Nosotros</a>
-            <a class="nav-links__item" href="contacto.html">Contacto</a>
-          </nav>
-        </div>
+        <!-- navbar de bootstrap -->
+        <nav
+          class="
+            navbar
+            navbar-expand-sm
+            navbar-expand-md
+            navbar-expand-lg
+            navbar-custom
+            navbar-light
+            bg-light
+          "
+        >
+          <div class="container-fluid nav-links-container">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarMenuTaxi"
+              aria-controls="navbarMenuTaxi"
+              aria-expanded="false"
+              aria-label="Menu Navegación"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarMenuTaxi">
+              <ul class="navbar-nav header__nav-links">
+                <li class="nav-item">
+                  <a class="nav-link nav-links__item" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link nav-links__item" href="noticias.html"
+                    >Noticias</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link nav-links__item" href="servicios.html"
+                    >Servicios</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link nav-links__item" href="nosotros.html"
+                    >Nosotros</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link nav-links__item" href="contacto.html"
+                    >Contacto</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <!-- FIN navbar de bootstrap -->
       </header>
 
       <section class="quienesSomos">
         <div class="contenedor-quienes-somos">
-          <h1 class="titulo-nosotros">QUIENES SOMOS</h1>
+          <h1 class="titulo-nosotros title-section">QUIENES SOMOS</h1>
           <div class="intro">
             <img
               class="img-somos img-thumbnail"

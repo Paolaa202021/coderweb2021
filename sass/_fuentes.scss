@@ -1,1 +1,14 @@
-$font-family: 'Roboto';
+@import "variables";
+
+$font-family: "Roboto";
+
+.title-section {
+  font-family: $font-family;
+  font-size: $title-section;
+  text-transform: uppercase;
+}
+
+.subtitle-section {
+  font-family: $font-family;
+  font-size: $subtitle-section;
+}

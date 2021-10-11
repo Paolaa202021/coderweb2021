@@ -38,7 +38,7 @@
 } */
 
 .pedido {
-  background-image: url('./img/home.svg');
+  background-image: url("./img/home.svg");
   background-size: cover;
   padding: 30px 0px;
 }
@@ -86,7 +86,7 @@
   box-shadow: 2px 2px 4px 0px rgba(50, 50, 50, 0.75);
   color: #fafafa;
   font-size: 14px;
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-weight: bold;
 
   margin-top: 30px;
@@ -102,7 +102,7 @@
 .frase-pedido {
   color: #fafafa;
   font-size: 40px;
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-weight: 300;
   font-style: italic;
   padding-left: 40px;
@@ -156,7 +156,7 @@
   box-shadow: 2px 2px 4px 0px rgba(50, 50, 50, 0.75);
   color: #fafafa;
   font-size: 14px;
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-weight: bold;
 
   margin-top: 10px;
@@ -184,7 +184,7 @@
 .titulo-nosotros {
   text-transform: uppercase;
   font-size: 25px;
-  font-family: 'Roboto';
+  font-family: "Roboto";
   padding: 40px 0px;
   text-align: center;
 }
@@ -214,12 +214,12 @@
 }
 
 .card-body h3 {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-size: 16px;
 }
 
 .card-body p {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-size: 12px;
   font-weight: 400;
   margin-top: 15px;
@@ -229,9 +229,9 @@
 .layout {
   display: grid;
   grid-template-areas:
-    'header'
-    'pedido'
-    'footer';
+    "header"
+    "pedido"
+    "footer";
   grid-template-rows: auto;
   grid-auto-columns: 1fr;
   width: 100%;
@@ -286,7 +286,7 @@ footer {
 
 .container-texto-somos h3,
 .container-texto-somos p {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   margin-bottom: 30px;
 }
 
@@ -420,8 +420,8 @@ footer {
     width: 100%;
   }
 
-  .footer-menu {
+  /* .footer-menu {
     flex-direction: column;
     align-items: center;
-  }
+  } */
 }

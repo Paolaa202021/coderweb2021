@@ -16,7 +16,6 @@
 
     .footer__footer-menu {
       display: flex;
-      flex-direction: row;
 
       .footer-menu__footer-menu-item {
         color: $white;
@@ -25,6 +24,26 @@
         padding: 10px;
         text-transform: uppercase;
         text-decoration: none;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .footer {
+    .footer__footer-container {
+      justify-content: center;
+      flex-direction: column;
+    }
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .footer {
+    .footer__footer-container {
+      .footer__footer-menu {
+        flex-direction: column;
+        align-items: center;
       }
     }
   }
